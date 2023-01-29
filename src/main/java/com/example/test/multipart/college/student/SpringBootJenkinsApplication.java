@@ -20,6 +20,7 @@ public class SpringBootJenkinsApplication {
 
 	public static void main(String[] args) {
 		logger.info("application executed.....");
+		logger.info("application executed Test Second.....");
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 		logger.info("Omm Sai Ram.....");
 	}

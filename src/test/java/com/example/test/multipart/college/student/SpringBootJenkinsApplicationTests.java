@@ -14,6 +14,7 @@ class SpringBootJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("in context loads");
+		logger.info("in context loads Second");
 		assertEquals(true, true);
 	}
 
